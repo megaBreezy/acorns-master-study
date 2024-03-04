@@ -1,0 +1,33 @@
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+*/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+#ignore cache data
+shared/build/kotlin/*
+shared/build/tmp
+
+#ignore debug
+shared/build/intermediates/*/debug/*
+
+#ignore build files
+shared/build/bin/ios/debugFramework/shared.framework/Info.plist
+shared/build/bin/ios/debugFramework/shared.framework/shared
+shared/build/classes/kotlin/ios/main/shared.klib
+shared/build/cocoapods/*
+shared/build/*
+shared/*.realm
+shared/*.realm.*
+shared/*/build/*
+shared/feature/*/build/*
+shared/feature/*/mock/build/*
+shared/feature/*/*/build/*
+shared/feature/*/*/mock/build*
+buildSrc/build/*
